@@ -6,7 +6,8 @@
     "prebuild": "rimraf dist",
     "prebuild:dev": "rimraf dist",
     "build:dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
     "lint-staged": "^13.1.0",
     "parcel": "^2.8.3",
     "prettier": "^2.8.3",
-    "rimraf": "^4.1.1"
+    "rimraf": "^4.1.1",
+    "husky": "^8.0.0"
   }
 }
